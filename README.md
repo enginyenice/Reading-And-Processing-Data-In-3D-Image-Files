@@ -11,8 +11,8 @@ verilerini okuyarak bilgileri bellekte saklamanızdır. Dosyalar .nkt uzantılı
 kaydedilmiştir. 3 boyutlu nokta verileri nokta verileri dosyasında aşağıda belirtilen formatta
 saklanmaktadır.
 
-[========]
- - #Noktalar dosya formatı
+
+>#Noktalar dosya formatı
 VERSION 1
 ALANLAR x y z r g b
 NOKTALAR 213
@@ -21,11 +21,11 @@ DATA ascii
 0.90805 0.35641 0 114 145 123
 0.81915 0.32 0 2 5 250
 0.97192 0.278 0 255 255 255
-[========]
 
 
-[========]
-#Noktalar dosya formatı
+
+
+>#Noktalar dosya formatı
 VERSION 1
 ALANLAR x y z
 NOKTALAR 204800
@@ -34,7 +34,7 @@ DATA binary
 áÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿá
 ÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿá
 ÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿá
-[========]
+
 
 Dosya 1 Dosya 2
 Dosyanın ilk satırı açıklama satırı, ikinci satırı ise dosyanın sürümünü göstermektedir.
@@ -72,9 +72,7 @@ içinde kalan noktaların bilgileri ve nokta numaraları
 - Tüm istertlerin sonuçlarının “output.nkt” dosyası içerisine kayıt edilmesi
 gerekmektedir. Output.nkt dosyasının formatı aşağıdaki gibi olmalıdır:
 output.nkt
-
-[========]
-SECIM1
+> SECIM1
 Tüm dosyalar uyumludur.
 SECIM2
 0.93773 0.33763 0 124 23 255
@@ -100,12 +98,10 @@ DATA ascii
 …
 SECIM5
 0.93773
-[========]
 
 
 
-[========]
-SECIM1
+> SECIM1
 Tüm dosyalar uyumludur.
 SECIM2
 ø €% À àÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿá
@@ -132,7 +128,6 @@ DATA binary
 SECIM5
 àÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿáÿá
 
-[========]
 
 ## 3. Uygulama Arayüzü
 Uygulamaya ait menü aşağıdaki gibi olmalıdır.
