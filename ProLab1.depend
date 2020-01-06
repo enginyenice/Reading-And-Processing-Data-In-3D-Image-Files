@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1572135504 source:d:\c programlama\prolab1\main.c
-	<stdio.h>
-	<string.h>
-	<math.h>
-	<dirent.h>
-	<stdlib.h>
-	<float.h>
-
